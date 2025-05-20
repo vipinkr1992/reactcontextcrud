@@ -39,7 +39,7 @@ h2 {
 form {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 12px;
 }
 /* Center button */
 .form-button-wrapper {
