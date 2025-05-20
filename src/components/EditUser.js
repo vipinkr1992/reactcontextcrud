@@ -14,7 +14,7 @@ const EditUser = () => {
      });
 
      useEffect(() => {
-        const user = users.find(u => u.id === parseInt(id));
+        const user = users.find(u => u.id === id);
         if (user) setForm(user);
       }, [id, users]);
 
