@@ -28,7 +28,7 @@ const handleChange = (e) => {
     // Construct user object (you can add validation here)
     const newUser = {
       ...form,
-      id: Date.now(), // temporary ID if backend doesn't return one
+      id: Date.now().toString(), // temporary ID if backend doesn't return one
     };
 
     addUser(newUser);
